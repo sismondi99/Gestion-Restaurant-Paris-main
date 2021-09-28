@@ -1,0 +1,28 @@
+.modal {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+        background-color: blueviolet;
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    background-color: aquamarine;
+}
+
+.imgbox {
+    height: 13px;
+}
+
+.modal-title {
+    color: red;
+}
